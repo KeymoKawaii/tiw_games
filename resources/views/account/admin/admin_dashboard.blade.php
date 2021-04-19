@@ -4,11 +4,6 @@
 
     <section class="d-flex flex-row flex-justify-around w-100">
         <div>
-            @livewire('admin.stats', [
-            'type' => 'integer',
-            'title' => 'total games',
-            'base_value' => 125,
-            ])
 
             @livewire('admin.stats', [
             'title' => 'total games on sale',
